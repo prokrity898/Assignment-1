@@ -1,0 +1,139 @@
+
+/* font style*/ 
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+
+  /* Shared styles */ 
+  
+  .btn-primary{
+      font-size: 20px;
+      font-weight: 600;
+      color: #0D1321;
+      padding: 17px 24px;
+      border-radius: 8px;
+      border: 2px solid #0D1321; 
+      background-color: transparent;
+  }
+  .btn-secondary{
+      font-size: 20px;
+      font-weight: 600;
+      position: bottom left;
+      padding: 10px 20px;
+      background-color: white;
+      border: 1px solid rgba(13, 19, 33, 1.00);
+  }
+  .ms1-box-design{
+      padding: 48px 48px; 
+      display: flex;
+      align-items: center;
+      border-radius: 16px;
+      background-color: #FFFFFF;
+      margin: 32px;
+      box-sizing: 0 4px 8px rgba(13, 19, 33, 0.10);
+  }
+  .ms1-box-content{
+      padding: 10px;
+  }
+  .ms1-para-design{
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 24px;
+  }
+  .ms1-box24-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+  .section234-title{
+      font-size: 32px;
+      font-weight: 900;
+      padding: 0 144px 24px 144px;
+  }
+  .section234-para{
+      font-size: 16px;
+      font-weight: 400;
+      max-width: 852px;
+      padding: 0 144px 48px 144px;
+  }
+  
+
+  /* styles of heading section */ 
+
+  header{
+    width: 100%; background-color: #FFFFFF;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 100px; 
+  }
+  .nav-title{
+      font-weight: 800px;
+      font-size: 28px;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li{
+
+     margin-left: 20px;
+  }
+  
+
+  /* Banner content design */ 
+  
+  .banner{
+      background-image: url(/images/Hero-bg.png);
+      background-size: cover; 
+      background-position: center; 
+      display: flex; 
+      justify-content: center; 
+      height: 652px;
+      width: 1440;
+      padding: 0 20px;
+  }
+  .hero-section{
+      max-width: 998px;
+      text-align: center;
+  }
+  .content-img{
+      height: 240.28px;
+      width: 240px;
+      margin-bottom: 20px;
+  }
+  .banner-content{
+      width: 100%;
+  }
+  .content-heading{
+      font-size: 48px;
+      font-weight: 900;
+      margin-bottom: 20px;
+  }
+  .content-para{
+      font-size: 16px;
+      font-weight: 400; 
+      max-width: 700px;
+      margin: 0 auto 20px auto;
+  }
+  .content-btn{
+      border-radius: 8px;
+      background-color: #0D1321;
+      height: 65px;
+      width: 244px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #FFFFFF;
+      border: none;
+  }
+  
