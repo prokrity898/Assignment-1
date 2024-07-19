@@ -250,3 +250,49 @@
   border: none;
 }
 
+
+  /* Main Section 4 design */ 
+
+  .main-section4{
+    max-width: 1140px;
+    height: 866px;
+    text-align: center;
+    margin: 111px 150px 49px 150px;
+}
+.section4-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 40px;
+    margin-bottom: 24px;
+    max-width: 1060px;
+    height: 139px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.section4-images{
+    height: 108px;
+    width: 94.78px;
+    margin-right: 24px;
+}
+.section4-content{
+    text-align: left;
+    color: rgba(13, 19, 33, 1.00);
+}
+.section4-content h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.section4-content p{
+    margin: 10px 0; 
+    font-size: 16px;
+    font-weight: 400px; 
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: 700px;
+    margin-top: 24px;
+    color: rgba(13, 19, 33, 1.00);
+
+}
