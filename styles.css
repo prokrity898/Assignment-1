@@ -214,3 +214,39 @@
     border-radius: 16px;
 }
 
+
+  /* Main section 3 design */ 
+  .main-section3{
+    text-align: center;
+    margin: 151px 150px 111px 150px;
+    max-width: 1140px;
+    height: 460px;
+}
+.section3-box-design{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    text-align: left;
+}
+.section3-box1{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.section3-box2{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.section3-box3{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.ms3-learnmore{
+  color: rgba(13, 19, 33, 1.00);
+  font-weight: 700px;
+  font-size: 16px;
+  border: none;
+}
+
