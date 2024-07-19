@@ -296,3 +296,62 @@
     color: rgba(13, 19, 33, 1.00);
 
 }
+
+  /* Mains section5 design */ 
+
+  .main-section-5{
+    background-image: url(/images/handshake.jpg);
+    max-width: 1140px;
+    height: 414px;
+    margin: 41px 150px 79px 150px;
+    border-radius: 16px;
+    color: rgba(0, 0, 0, 0.20);
+    background-position: center;
+    background-size: cover;
+}
+.ms5-heading{
+    padding: 64px 0 16px 424px;
+    text-align: left; 
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    max-width: 292px;
+    height: 36px;
+}
+.ms5-para{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 0 267px 24px 267px;
+    max-width: 606px;
+    height: 52px;
+    color: #FFFFFF;
+}
+.ms5-inputfield{
+    display: flex;
+    gap: 16px;
+    padding-left: 228px;
+    height: 58px;
+}
+.message-box{
+    width: 548px;
+    height: 58px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px; 
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.40);
+}
+.submit-btn{
+    border-radius: 8px;
+    width: 120px;
+    height: 58px;
+    background-color: white; 
+    border: none;
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgba(13, 19, 33, 1.00);
+    text-align: center;
+}
+
