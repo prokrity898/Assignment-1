@@ -272,8 +272,11 @@
 }
 .section4-images{
     height: 108px;
-    width: 94.78px;
+    max-width: 94.78px;
     margin-right: 24px;
+}
+.section4-nodejsimage{
+    gap: 44px;
 }
 .section4-content{
     text-align: left;
