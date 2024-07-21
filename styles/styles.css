@@ -4,13 +4,13 @@
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>; */ 
     font-style: normal;
   }
   
 
   /* Shared styles */ 
-  
+
   .btn-primary{
       font-size: 20px;
       font-weight: 600;
@@ -94,7 +94,7 @@
   /* Banner content design */ 
   
   .banner{
-      background-image: url(/images/Hero-bg.png);
+      background-image: url("/images/Hero-bg.png"); 
       background-size: cover; 
       background-position: center; 
       display: flex; 
@@ -299,8 +299,8 @@
 
   /* Mains section5 design */ 
 
-  .main-section-5{
-    background-image: url(/images/handshake.jpg);
+  .main-section5{
+    background-image: url("/images/handshake.jpg");
     max-width: 1140px;
     height: 414px;
     margin: 41px 150px 79px 150px;
@@ -355,9 +355,8 @@
     text-align: center;
 }
 
-
   /* footer design */ 
-  .footer{
+.footer{
     max-width: 1140px;
     height: 36px;
     padding: 32px 150px;
